@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link  href="http://третьяков-алексей.рф/skill-factory/A6.8-practice/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src="http://третьяков-алексей.рф/skill-factory/A6.8-practice/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script src="http://третьяков-алексей.рф/skill-factory/A6.8-practice/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script src="http://третьяков-алексей.рф/skill-factory/A6.8-practice/my-A6.8.js" type="text/javascript"></script>
+    <title>PWS A6</title>
+    
+  </head>
+  <body>
+    <h1>Практика с ПРОГРЕССБАРАМИ</h1>
+
+    <div class="progress">
+      <div id="freedom" class="progress-bar bg-success" ❷  role="progressbar" style="width:9%">
+        <span style="float: left" id="indicator1">9%</span> Свобода 
+      </div>
+    </div>
+    <br>
+    <div class="progress">
+      <div id="equality" class="progress-bar bg-warning" ❷ role="progressbar" style="width:15%">
+       <span style="float: left" id="indicator2">7%</span> Равенство 
+      </div>
+    </div>
+    <br>
+    <div class="progress">
+      <div id="brotherhood" class="progress-bar bg-danger" ❷  role="progressbar" style="width:11%">
+       <span style="float: left" id="indicator3">11%</span> Братство 
+      </div>
+    </div>
+    
+    <br><br>
+    <button name="freedom" type="button" class="btn btn-dark" >Добавить свободы +1%</button>
+    <button name="equality" type="button" class="btn btn-dark" >Добавить равенства +3%</button>
+    <button name="brotherhood" type="button" class="btn btn-dark" >Добавить братства +15%</button><br><br>
+    
+    <button name="allTogether" type="button" class="btn btn-dark" >Увеличить всё (на рандоме от 1 до 25)</button>
+    <button name="getResults" type="button" class="btn btn-dark" >Вывести текущее положение Results</button><br><br><br>
+
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
